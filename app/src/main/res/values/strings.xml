@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">ProTrack</string>
     <string name="no_data">No Data Found</string>
+    <string name="new_entry">NEW</string>
+    <string name="okay">OK</string>
+    <string name="content_hint">Note Today\'s Progress</string>
 </resources>

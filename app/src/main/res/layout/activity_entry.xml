@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="10dp"
     tools:context="com.eightyeightysix.shourya.protrack.EntryActivity">
 
     <ListView
@@ -11,5 +12,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
     />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/new_entry"
+        android:textColor="@android:color/white"/>
 
 </RelativeLayout>
